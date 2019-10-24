@@ -4,5 +4,9 @@
 
 LEXICON Nouns
 noun    Cases   ;
+greeting Cases ;
+fellow  Cases ;
+youth Cases ;
+nuneral Cases ;
 
 ! vim: set ft=xfst-lexc:

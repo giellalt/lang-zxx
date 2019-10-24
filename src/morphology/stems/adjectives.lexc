@@ -4,5 +4,6 @@
 
 LEXICON Adjectives
 adjective    Comparisons   ;
+kind Comparisons ;
 
 ! vim: set ft=xfst-lexc:

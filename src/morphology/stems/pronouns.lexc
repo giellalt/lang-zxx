@@ -4,5 +4,8 @@
 
 LEXICON Pronouns
 pronoun    Cases   ;
+you Cases ;
+how Cases ;
+it Cases ;
 
 ! vim: set ft=xfst-lexc:
