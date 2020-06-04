@@ -1,0 +1,9 @@
+name = "No linguistic content"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.zxx"
+
+[windows]
+system_product_code = "17B62C96-9A55-4292-9957-AEC1D42AB325"
+msoffice_product_code = "374C94A1-D8EA-4289-9016-DB93D7C5679A"
