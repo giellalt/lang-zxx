@@ -1,6 +1,10 @@
 The No linguistic content morphology and tools
 ==========================================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/issues)
+[![Build Status](https://github.com/giellalt/lang-zxx/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-zxx/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-zxx)](https://raw.githubusercontent.com/giellalt/lang-zxx/develop/LICENSE)
+
 This repository contains finite state source files for the No linguistic content language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
@@ -8,10 +12,6 @@ licence, also detailed in the
 [LICENCE](https://github.com/giellalt/lang-zxx/blob/develop/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/issues)
-[![Build Status](https://github.com/giellalt/lang-zxx/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-zxx/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-zxx)](https://raw.githubusercontent.com/giellalt/lang-zxx/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-zxx)
 for the No linguistic content language by using the [Divvun Installer](http://divvun.no)
