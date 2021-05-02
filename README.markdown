@@ -17,6 +17,8 @@ Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-zxx)
 for the No linguistic content language by using the [Divvun Installer](http://divvun.no)
 (some languages are only available via the nightly channel).
 
+Test. Ignore.
+
 Documentation
 -------------
 
