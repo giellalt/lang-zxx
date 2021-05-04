@@ -1,6 +1,6 @@
 template = "https://github.com/giellalt/template-lang-und"
-rev_id = 61
-template_sha = "b6c5f57714b8bbe7bedc9c76bb8474f28a198a60"
+rev_id = 62
+template_sha = "32baae2de6182f54faf834153e69068fafc6c5fe"
 
 [replacements]
 __UND2C__ = "zxx"
