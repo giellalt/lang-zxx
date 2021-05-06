@@ -1,29 +1,26 @@
-Noun inflection
-The No linguistic content language nouns inflect in cases.
+Nouns
+Nouns in the No linguistic content language are things.
+
+
+Numerals
+Numerals in the No linguistic content language are numbers.
+
+
+Verbs
+Verbs in the No linguistic content language are actions.
+
+
+Prefixes
+Prefixes in the No linguistic content language are bound to beginning of other words.
 
 
 
-Proper noun inflection
-The No linguistic content language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+Adjectives
+Adjectives in the No linguistic content language describe things and stuff.
 
 
-
-
-# Symbol affixes
-
-
-
-
-
-Adjective inflection
-The No linguistic content language adjectives compare.
-
-
-
-Verb inflection
-The No linguistic content language verbs inflect in persons.
-
+Pronouns
+Pronouns in the No linguistic content language are references to things.
 
 
 =================================== !
@@ -49,6 +46,34 @@ The No linguistic content morphophonological/twolc rules file !
 * examples:*
 
 * examples:*
+
+# Symbol affixes
+
+
+
+
+
+Noun inflection
+The No linguistic content language nouns inflect in cases.
+
+
+
+Proper noun inflection
+The No linguistic content language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Verb inflection
+The No linguistic content language verbs inflect in persons.
+
+
+
+Adjective inflection
+The No linguistic content language adjectives compare.
+
+
+
 
 This language module is a testing ground for things and stuff.
 
@@ -125,29 +150,20 @@ given the proper use of these flags.
 The word forms in No linguistic content language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
-Nouns
-Nouns in the No linguistic content language are things.
-
-
-Prefixes
-Prefixes in the No linguistic content language are bound to beginning of other words.
 
 
 
-Pronouns
-Pronouns in the No linguistic content language are references to things.
+We describe here how abbreviations are in No linguistic content are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-Adjectives
-Adjectives in the No linguistic content language describe things and stuff.
-
-
-Verbs
-Verbs in the No linguistic content language are actions.
-
-
-Numerals
-Numerals in the No linguistic content language are numbers.
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -203,20 +219,4 @@ Numerals in the No linguistic content language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in No linguistic content are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
