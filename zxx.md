@@ -605,29 +605,32 @@ These were the set types.
 
 
 
-Nouns
-Nouns in the No linguistic content language are things.
-
-
-Numerals
-Numerals in the No linguistic content language are numbers.
-
-
-Verbs
-Verbs in the No linguistic content language are actions.
-
-
-Prefixes
-Prefixes in the No linguistic content language are bound to beginning of other words.
+Verb inflection
+The No linguistic content language verbs inflect in persons.
 
 
 
-Adjectives
-Adjectives in the No linguistic content language describe things and stuff.
+Proper noun inflection
+The No linguistic content language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
-Pronouns
-Pronouns in the No linguistic content language are references to things.
+
+Adjective inflection
+The No linguistic content language adjectives compare.
+
+
+
+Noun inflection
+The No linguistic content language nouns inflect in cases.
+
+
+
+
+# Symbol affixes
+
+
+
 
 
 =================================== !
@@ -653,32 +656,29 @@ The No linguistic content morphophonological/twolc rules file !
 * examples:*
 
 * examples:*
-
-# Symbol affixes
-
-
+Verbs
+Verbs in the No linguistic content language are actions.
 
 
-
-Noun inflection
-The No linguistic content language nouns inflect in cases.
-
+Pronouns
+Pronouns in the No linguistic content language are references to things.
 
 
-Proper noun inflection
-The No linguistic content language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+Numerals
+Numerals in the No linguistic content language are numbers.
 
 
+Adjectives
+Adjectives in the No linguistic content language describe things and stuff.
 
-Verb inflection
-The No linguistic content language verbs inflect in persons.
+
+Prefixes
+Prefixes in the No linguistic content language are bound to beginning of other words.
 
 
 
-Adjective inflection
-The No linguistic content language adjectives compare.
-
+Nouns
+Nouns in the No linguistic content language are things.
 
 
 
@@ -760,22 +760,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in No linguistic content are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -826,6 +810,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in No linguistic content are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
