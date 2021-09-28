@@ -606,7 +606,38 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-zxx/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-zxx/blob/main/../src/cg3/functions.cg3)</small>Nouns
+Nouns in the No linguistic content language are things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/nouns.lexc)</small>Prefixes
+Prefixes in the No linguistic content language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
+Adjectives in the No linguistic content language describe things and stuff.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/adjectives.lexc)</small>Verbs
+Verbs in the No linguistic content language are actions.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+Numerals in the No linguistic content language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
+Pronouns in the No linguistic content language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/pronouns.lexc)</small>=================================== !
 The No linguistic content morphophonological/twolc rules file !
 =================================== !
 
@@ -636,26 +667,7 @@ The No linguistic content language nouns inflect in cases.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/nouns.lexc)</small>Proper noun inflection
-The No linguistic content language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/propernouns.lexc)</small>Verb inflection
-The No linguistic content language verbs inflect in persons.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
-The No linguistic content language adjectives compare.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/nouns.lexc)</small>
 # Symbol affixes
 
 
@@ -663,7 +675,26 @@ The No linguistic content language adjectives compare.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
+The No linguistic content language adjectives compare.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
+The No linguistic content language verbs inflect in persons.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
+The No linguistic content language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/propernouns.lexc)</small>
 This language module is a testing ground for things and stuff.
 
  # Definitions for `Multichar_Symbols`
@@ -740,38 +771,24 @@ The word forms in No linguistic content language start from the lexeme roots of 
 word classes, or optionally from prefixes:
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/root.lexc)</small>Nouns
-Nouns in the No linguistic content language are things.
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/root.lexc)</small>
+
+
+We describe here how abbreviations are in No linguistic content are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/nouns.lexc)</small>Verbs
-Verbs in the No linguistic content language are actions.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
-Adjectives in the No linguistic content language describe things and stuff.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
-Numerals in the No linguistic content language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/numerals.lexc)</small>Prefixes
-Prefixes in the No linguistic content language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/prefixes.lexc)</small>Pronouns
-Pronouns in the No linguistic content language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -827,23 +844,6 @@ Pronouns in the No linguistic content language are references to things.
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in No linguistic content are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
