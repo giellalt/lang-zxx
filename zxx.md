@@ -606,7 +606,31 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-zxx/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-zxx/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+The No linguistic content morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/phonology.twolc)</small>
 This language module is a testing ground for things and stuff.
 
 # Definitions for `Multichar_Symbols`
@@ -691,87 +715,63 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/symbols.lexc)</small>Noun inflection
-The No linguistic content language nouns inflect in cases.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
-The No linguistic content language adjectives compare.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
-The No linguistic content language verbs inflect in persons.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
 The No linguistic content language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/propernouns.lexc)</small>=================================== !
-The No linguistic content morphophonological/twolc rules file !
-=================================== !
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/propernouns.lexc)</small>Verb inflection
+The No linguistic content language verbs inflect in persons.
 
 
 
-
-
-
-
-
-* *primus%>s*
-* *primus00*
-
-
-* examples:*
-
-* examples:*
-
-
-* examples:*
-
-* examples:*
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/phonology.twolc)</small>Prefixes
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
+The No linguistic content language adjectives compare.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
+The No linguistic content language nouns inflect in cases.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/affixes/nouns.lexc)</small>Verbs
+Verbs in the No linguistic content language are actions.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
+Adjectives in the No linguistic content language describe things and stuff.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
+Numerals in the No linguistic content language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/numerals.lexc)</small>Nouns
+Nouns in the No linguistic content language are things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/nouns.lexc)</small>Pronouns
+Pronouns in the No linguistic content language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
 Prefixes in the No linguistic content language are bound to beginning of other words.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/prefixes.lexc)</small>Nouns
-Nouns in the No linguistic content language are things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
-Adjectives in the No linguistic content language describe things and stuff.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
-Pronouns in the No linguistic content language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
-Verbs in the No linguistic content language are actions.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the No linguistic content language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/stems/prefixes.lexc)</small>
 
 
 We describe here how abbreviations are in No linguistic content are read out, e.g.
