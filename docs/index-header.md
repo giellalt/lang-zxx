@@ -7,9 +7,13 @@
 
 This page documents the work on the **No linguistic content language model**. 
 
+It is used only for testing purposes. Do not assume anything useful or informative here.
+
 # Project documentation
 
 * Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+
+[Test](Test.md)
 
 # In-source documentation
 
