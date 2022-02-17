@@ -42,20 +42,13 @@ jobs:
           output: 'lang/docs/.resources'
         env:
           HIDE_CODEBLOCKS: 1
+# The next one must be declared, with an empty value, for paths to work for us:
           ABSOLUTE_IMAGE_LINKS:
           OUTPUT_FILE_TYPE: "svg"
 
       - name: show changes
         run: |
           cd lang && git status ; ls -l docs/.resources
-
-      - name: list resource dir
-        run: |
-          cd lang/docs && ls -laR
-
-      - name: cat Test file
-        run: |
-          cd lang/docs && cat Test.md
 
 # Mermaid processing ends here - how to get them into the deployment?
 
