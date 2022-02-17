@@ -42,6 +42,7 @@ jobs:
           output: 'lang/docs/.resources'
         env:
           HIDE_CODEBLOCKS: 1
+          ABSOLUTE_IMAGE_LINKS:
           OUTPUT_FILE_TYPE: "svg"
 
       - name: show changes
