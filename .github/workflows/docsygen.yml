@@ -24,6 +24,8 @@ jobs:
         with:
           spellers: false
           fst: hfst
+
+# Mermaid processing starts here:
       - name: get changed files
         id: getfile
         run: |
@@ -42,6 +44,12 @@ jobs:
           HIDE_CODEBLOCKS: 1
           ABSOLUTE_IMAGE_LINKS: 1
           OUTPUT_FILE_TYPE: "svg"
+
+      - name: show changes
+        run: |
+          cd lang && git status
+
+# Mermaid processing ends here - how to get them into the deployment?
 
       - name: deploy gh pages
         uses: peaceiris/actions-gh-pages@v3
