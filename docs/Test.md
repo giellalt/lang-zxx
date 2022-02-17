@@ -10,7 +10,7 @@ graph TD;
 
 ## One more
 
-```mermaid!
+```mermaid
 graph TD;
 	A-->B;
 	A-->C;
