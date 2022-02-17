@@ -26,15 +26,16 @@ jobs:
           fst: hfst
 
 # Mermaid processing starts here:
-      - name: get changed files
+      - name: get list of files
         id: getfile
         run: |
           echo "::set-output name=files::$(find lang/docs -name '*.md' | xargs)"
 
-      - name: md files changed
+      - name: print list of files for debugging
         run: |
           echo ${{ steps.getfile.outputs.files }}
 
+# The actual Mermaid compilation
       - name: compile mermaid
         uses: neenjaw/compile-mermaid-markdown-action@3e7d651f458f723ac67d1b18431bf77f06fbb068
         with:
@@ -46,11 +47,10 @@ jobs:
           ABSOLUTE_IMAGE_LINKS:
           OUTPUT_FILE_TYPE: "svg"
 
-      - name: show changes
+      - name: list generated svg fils
         run: |
-          cd lang && git status ; ls -l docs/.resources
-
-# Mermaid processing ends here - how to get them into the deployment?
+          cd lang && ls -l docs/.resources
+# Mermaid processing ends here
 
       - name: deploy gh pages
         uses: peaceiris/actions-gh-pages@v3
