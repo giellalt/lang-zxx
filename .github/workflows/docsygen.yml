@@ -53,6 +53,10 @@ jobs:
         run: |
           cd lang/docs && ls -laR
 
+      - name: cat Test file
+        run: |
+          cd lang/docs && cat Test.md
+
 # Mermaid processing ends here - how to get them into the deployment?
 
       - name: deploy gh pages
