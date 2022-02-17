@@ -72,4 +72,8 @@ The word forms in No linguistic content language start from the lexeme roots of 
 word classes, or optionally from prefixes:
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-zxx/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-zxx/blob/main/src/fst/root.lexc)</small>
+
+---
+
