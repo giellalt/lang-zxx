@@ -42,3 +42,5 @@ sequenceDiagram
     dotcom->>iframe: set mermaid data on iframe
     iframe->>iframe: render mermaid
 ```
+
+And some final text to round it off.
