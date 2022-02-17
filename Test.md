@@ -16,6 +16,8 @@ graph TD;
 	A-->C;
 	B-->D;
 	C-->D;
+	A-->D;
+	D-->D;
 ```
 
 A pie chart:
@@ -26,6 +28,7 @@ pie
   "Dogs" : 386
   "Cats" : 85
   "Rats" : 35
+  "Hros" : 55
 ```
 
 And this one:
