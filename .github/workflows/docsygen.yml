@@ -51,7 +51,7 @@ jobs:
 
       - name: list resource dir
         run: |
-          cd lang/docs && ls -la .resources
+          cd lang/docs && ls -laR
 
 # Mermaid processing ends here - how to get them into the deployment?
 
