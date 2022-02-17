@@ -49,6 +49,10 @@ jobs:
         run: |
           cd lang && git status ; ls -l docs/.resources
 
+      - name: list resource dir
+        run: |
+          cd lang/docs ls -la .resources
+
 # Mermaid processing ends here - how to get them into the deployment?
 
       - name: deploy gh pages
