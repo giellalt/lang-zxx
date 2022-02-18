@@ -40,7 +40,7 @@ jobs:
         uses: neenjaw/compile-mermaid-markdown-action@3e7d651f458f723ac67d1b18431bf77f06fbb068
         with:
           files: ${{ steps.getfile.outputs.files }}
-          output: 'lang/docs/.resources'
+          output: 'lang/docs/mermaid-svgs'
         env:
           HIDE_CODEBLOCKS: 1
 # The next one must be declared, with an empty value, for paths to work for us:
@@ -49,7 +49,7 @@ jobs:
 
       - name: list generated svg fils
         run: |
-          cd lang && ls -l docs/.resources
+          cd lang && ls -l docs/mermaid-svgs
 # Mermaid processing ends here
 
       - name: deploy gh pages
