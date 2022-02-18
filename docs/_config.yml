@@ -1,4 +1,3 @@
 theme: jekyll-theme-minimal
 title: NLP Grammar with no linguistic content
 description: Finite state and Constraint Grammar based testing bed. Asume nothing works!
-include: [.resources]
