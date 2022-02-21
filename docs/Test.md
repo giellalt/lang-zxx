@@ -47,3 +47,28 @@ sequenceDiagram
 ```
 
 And some final text to round it off.
+
+```mermaid
+stateDiagram-v2
+direction LR
+[*] --> Root
+Root --> Prefixes
+Root --> NounRoot
+Root --> Verb
+Root --> Adjective
+Root --> Pronoun
+Root --> Adverb
+Root --> Subjunction
+Root --> Conjunction
+Root --> Particle
+Root --> Adposition
+Root --> Punctuation
+Root --> Symbols
+Root --> Interjection
+Root --> Abbreviation
+Root --> Acronym
+Root --> ProperNoun
+Root --> Numeral
+```
+
+Korleis ser dette ut?
