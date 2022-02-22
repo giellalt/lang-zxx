@@ -37,7 +37,7 @@ jobs:
 
 # The actual Mermaid compilation
       - name: compile mermaid
-        uses: snomos/compile-mermaid-markdown-action@fb428c54a1adac1a83af53b863ec1101ba5b1bc1
+        uses: snomos/compile-mermaid-markdown-action@f1c16069990844e8861c0a3f154b1c0afce598ec
         with:
           files: ${{ steps.getfile.outputs.files }}
           output: 'lang/docs/mermaid-svgs'
