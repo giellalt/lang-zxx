@@ -37,7 +37,7 @@ jobs:
 
 # The actual Mermaid compilation
       - name: compile mermaid
-        uses: Eijebong/compile-mermaid-markdown-action@master
+        uses: divvun/compile-mermaid-markdown-action@main
         with:
           files: ${{ steps.getfile.outputs.files }}
           output: 'lang/docs/mermaid-svgs'
