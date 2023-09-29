@@ -907,7 +907,7 @@ uninstall-am: uninstall-docDATA
 .PRECIOUS: Makefile
 
 
-.PHONY: generate-markdown regenerate-markdown lemmacount.json
+.PHONY: generate-markdown regenerate-markdown
 
 regenerate-markdown: generate-markdown
 
