@@ -1,6 +1,7 @@
 The No linguistic content morphology and tools
 ==========================================
 
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-zxx%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-zxx/main/badge.svg)](https://github.com/giellalt/lang-zxx/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/blob/main/LICENSE)
