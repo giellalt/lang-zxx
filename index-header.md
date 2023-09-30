@@ -1,7 +1,7 @@
 # No linguistic content documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-zxx%2Fgh-pages%2Flemmacount.json)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-zxx%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-zxx/main/badge.svg)](https://github.com/giellalt/lang-zxx/actions)
@@ -15,6 +15,7 @@ It is used only for testing purposes. Do not assume anything useful or informati
 * Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
 
 [Test](Test.md)
+
 
 # In-source documentation
 
