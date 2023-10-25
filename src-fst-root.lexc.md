@@ -77,15 +77,17 @@ word classes, or optionally from prefixes:
   <summary>Mermaid markup</summary>
 
 ```mermaid
-flowchart LR
-A[Root] --> B[Nouns]
-A[Root] --> C[Verbs]
-A[Root] --> D[Adjectives]
-A[Root] --> E[Pronouns]
-A[Root] --> F[Numerals]
-A[Root] --> G[Prefixes]
-A[Root] --> H[Punctuation]
-A[Root] --> I[Symbols]
+stateDiagram-v2
+direction LR
+[*] --> Root
+Root --> Nouns
+Root --> Verbs
+Root --> Adjectives
+Root --> Pronouns
+Root --> Numerals
+Root --> Prefixes
+Root --> Punctuation
+Root --> Symbols
 ```
 
 </details>
