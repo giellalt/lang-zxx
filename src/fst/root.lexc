@@ -138,16 +138,17 @@ Multichar_Symbols  !!≈ # Definitions for `@CODE@`
 
 LEXICON Root
 !! ```mermaid
-!! flowchart LR
-!! [*] --> A[@LEXNAME@]
-0   Nouns       ; !! A[@LEXNAME@] --> B[@CONTLEX@]
-0   Verbs       ; !! A[@LEXNAME@] --> C[@CONTLEX@]
-0   Adjectives  ; !! A[@LEXNAME@] --> D[@CONTLEX@]
-0   Pronouns    ; !! A[@LEXNAME@] --> E[@CONTLEX@]
-0   Numerals    ; !! A[@LEXNAME@] --> F[@CONTLEX@]
-0   Prefixes    ; !! A[@LEXNAME@] --> G[@CONTLEX@]
-0   Punctuation ; !! A[@LEXNAME@] --> H[@CONTLEX@]
-0   Symbols     ; !! A[@LEXNAME@] --> I[@CONTLEX@]
+!! stateDiagram-v2
+!! direction LR
+!! [*] --> @LEXNAME@
+0   Nouns       ; !! @LEXNAME@ --> @CONTLEX@
+0   Verbs       ; !! @LEXNAME@ --> @CONTLEX@
+0   Adjectives  ; !! @LEXNAME@ --> @CONTLEX@
+0   Pronouns    ; !! @LEXNAME@ --> @CONTLEX@
+0   Numerals    ; !! @LEXNAME@ --> @CONTLEX@
+0   Prefixes    ; !! @LEXNAME@ --> @CONTLEX@
+0   Punctuation ; !! @LEXNAME@ --> @CONTLEX@
+0   Symbols     ; !! @LEXNAME@ --> @CONTLEX@
 !! ```
 
 ! vim: set ft=xfst-lexc:
