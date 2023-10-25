@@ -133,16 +133,20 @@ Multichar_Symbols  !!≈ # Definitions for `@CODE@`
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-LEXICON Root
 !! The word forms in No linguistic content language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
-    Punctuation ;
-    Symbols     ;
+
+LEXICON Root
+!! ```mermaid
+!! flowchart LR
+0   Nouns       ; !! A[@LEXNAME@] --> B[@CONTLEX@]
+0   Verbs       ; !! A[@LEXNAME@] --> C[@CONTLEX@]
+0   Adjectives  ; !! A[@LEXNAME@] --> D[@CONTLEX@]
+0   Pronouns    ; !! A[@LEXNAME@] --> E[@CONTLEX@]
+0   Numerals    ; !! A[@LEXNAME@] --> F[@CONTLEX@]
+0   Prefixes    ; !! A[@LEXNAME@] --> G[@CONTLEX@]
+0   Punctuation ; !! A[@LEXNAME@] --> H[@CONTLEX@]
+0   Symbols     ; !! A[@LEXNAME@] --> I[@CONTLEX@]
+!! ```
 
 ! vim: set ft=xfst-lexc:
