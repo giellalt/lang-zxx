@@ -1,0 +1,16 @@
+name: Send Zulip message
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send a stream message
+        uses: zulip/github-actions-zulip/send-message@v1
+        with:
+          api-key: ${{ secrets.ZULIP_API_KEY }}
+          email: "github-bot@giella.zulipchat.com"
+          organization-url: "https://giella.zulipchat.com"
+          to: "zxx"
+          type: "stream"
+          topic: "Castle"
+          content: "I come not, friends, to steal away your hearts."
