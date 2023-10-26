@@ -1,9 +1,17 @@
 name: Send Zulip message
-on: [push]
+on: [push, pull_request]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+        name: Checkout files
+        with:
+          fetch-depth: '2'
+          persist-credentials: 'true'
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
@@ -13,4 +21,4 @@ jobs:
           to: "zxx"
           type: "stream"
           topic: "Castle"
-          content: "I come not, friends, to steal away your hearts."
+          content: "I come not, friends, to steal away your hearts. The changed files are these: ${{steps.changed-files.outputs.all_modified_files}}"
