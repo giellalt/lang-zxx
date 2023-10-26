@@ -22,7 +22,7 @@ jobs:
       - name: Logging
         id: log
         run: |
-          echo "files=`$(echo ${{steps.changed-files.outputs.all_modified_files}} | tr ' ' '\n' | sed 's/^/- /g' )`" >> $GITHUB_OUTPUT
+          echo "files=`$(echo ${{steps.changed-files.outputs.all_modified_files}} | tr ' ' '\n' | sed 's/^/\- /g' )`" >> $GITHUB_OUTPUT
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
