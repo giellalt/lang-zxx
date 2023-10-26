@@ -37,4 +37,4 @@ jobs:
           to: "zxx"
           type: "stream"
           topic: "Castle"
-          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}} \n\n ${{steps.log.outputs.text}}"
+          content: "Changed files:\n\n${{steps.log.outputs.text}}"
