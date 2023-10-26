@@ -29,8 +29,8 @@ jobs:
         run: |
           eventrec='${{toJSON(github.event)}}'
           eventrec="${eventrec//'%'/'%25'}"
-          eventrec="${eventrec//$'\n'/'%0A'}"
-          eventrec="${eventrec//$'\r'/'%0D'}"
+#          eventrec="${eventrec//$'\n'/'%0A'}"
+#          eventrec="${eventrec//$'\r'/'%0D'}"
           EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
           echo "text<<$EOF" >> $GITHUB_OUTPUT
           for file in ${{steps.changed-files.outputs.all_modified_files}} ; do
