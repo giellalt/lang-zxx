@@ -15,7 +15,7 @@ jobs:
       - name: Logging
         id: log
         run: |
-          echo "::set-output name=events::$(echo ```json\n${{toJSON(github.event)}}\n```)"
+          echo "::set-output name=events::${{toJSON(github.event)}}"
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
