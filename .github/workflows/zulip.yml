@@ -15,7 +15,7 @@ jobs:
             const commits = ${{ toJSON(github.event.commits) }}
             for (const commit of commits) {
               run: |
-                echo "events=${{commit.message}}" >> $GITHUB_OUTPUT
+                echo "events=${{message}}" >> $GITHUB_OUTPUT
             }
       - name: Get changed files
         id: changed-files
