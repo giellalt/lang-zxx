@@ -48,5 +48,5 @@ jobs:
           organization-url: "https://giella.zulipchat.com"
           to: "${{env.ISO}}"
           type: "stream"
-          topic: "Castle"
-          content: "In ${{github.event.repository.name}} / ${{env.BRANCH}}\n\nChanged files:\n\n${{steps.log.outputs.text}}"
+          topic: "${{github.event.repository.name}} / ${{env.BRANCH}}"
+          content: "Changed files:\n\n${{steps.log.outputs.text}}"
