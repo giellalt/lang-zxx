@@ -27,7 +27,7 @@ jobs:
       - name: Logging
         id: log
         run: |
-          eventrec=${{github.event}}
+          eventrec=${{toJSON(github.event)}}
           eventrec="${eventrec//'%'/'%25'}"
           eventrec="${eventrec//$'\n'/'%0A'}"
           eventrec="${eventrec//$'\r'/'%0D'}"
