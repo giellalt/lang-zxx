@@ -23,7 +23,7 @@ jobs:
         id: log
         run: |
           for file in ${{steps.changed-files.outputs.all_modified_files}} ; do
-            echo "- $file" >> $GITHUB_OUTPUT
+            echo "'- $file'" >> $GITHUB_OUTPUT
           done
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
