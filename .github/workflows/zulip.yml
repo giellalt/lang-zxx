@@ -12,6 +12,10 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v35
+      - name: Logging
+        id: log
+        run: |
+          echo "```json\n${{toJSON(github.event)}}\n```"
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
@@ -21,4 +25,4 @@ jobs:
           to: "zxx"
           type: "stream"
           topic: "Castle"
-          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}}"
+          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}}\n\n${{steps.log}}"
