@@ -38,7 +38,8 @@ jobs:
           done
           echo "" >> $GITHUB_OUTPUT
           echo "```json" >> $GITHUB_OUTPUT
-          echo "$eventrec" >> $GITHUB_OUTPUT
+          echo "const commits = {};" >> $GITHUB_OUTPUT
+#          echo "$eventrec" >> $GITHUB_OUTPUT
           echo "```" >> $GITHUB_OUTPUT
           echo "$EOF" >> $GITHUB_OUTPUT
       - name: Send a stream message
