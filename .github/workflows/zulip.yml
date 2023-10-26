@@ -43,7 +43,7 @@ jobs:
           api-key: ${{ secrets.ZULIP_API_KEY }}
           email: "github-bot@giella.zulipchat.com"
           organization-url: "https://giella.zulipchat.com"
-          to: "zxx"
+          to: "${{env.ISO}}"
           type: "stream"
           topic: "Castle"
           content: "The ISO code is ${{env.ISO}}.\n\nChanged files:\n\n${{steps.log.outputs.text}}"
