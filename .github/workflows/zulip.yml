@@ -9,6 +9,15 @@ jobs:
         with:
           fetch-depth: '2'
           persist-credentials: 'true'
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const commits = ${{ toJSON(github.event.commits) }}
+            for (const commit of commits) {
+              console.log(commit);
+              run: |
+                echo "events=${{commit.message}}" >> $GITHUB_OUTPUT
+            }
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v35
