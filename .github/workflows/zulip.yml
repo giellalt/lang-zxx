@@ -28,7 +28,9 @@ jobs:
             echo "- $file" >> $GITHUB_OUTPUT
           done
           echo "" >> $GITHUB_OUTPUT
-          echo "```json\n${{toJSON(github.event)}}\n```" >> $GITHUB_OUTPUT
+          echo "```json" >> $GITHUB_OUTPUT
+          echo "${{toJSON(github.event)}}" >> $GITHUB_OUTPUT
+          echo "```" >> $GITHUB_OUTPUT
           echo "$EOF" >> $GITHUB_OUTPUT
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
