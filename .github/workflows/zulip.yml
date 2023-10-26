@@ -32,10 +32,6 @@ jobs:
           for file in ${{steps.changed-files.outputs.all_modified_files}} ; do
             echo "- $file" >> $GITHUB_OUTPUT
           done
-          echo "" >> $GITHUB_OUTPUT
-          echo "```json" >> $GITHUB_OUTPUT
-          echo 'const commits = {};' >> $GITHUB_OUTPUT
-          echo "```" >> $GITHUB_OUTPUT
           echo "$EOF" >> $GITHUB_OUTPUT
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
@@ -46,4 +42,4 @@ jobs:
           to: "${{env.ISO}}"
           type: "stream"
           topic: "Castle"
-          content: "The ISO code is ${{env.ISO}}.\n\nChanged files:\n\n${{steps.log.outputs.text}}"
+          content: "Changed files:\n\n${{steps.log.outputs.text}}"
