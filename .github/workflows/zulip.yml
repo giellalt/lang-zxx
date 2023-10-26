@@ -21,6 +21,11 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v35
+      - name: Get branch name
+        id: branchname
+        run: |
+          BRANCH=$(echo ${{github.event.ref}} | cut -d'/' -f3)
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
       - name: Get ISO code
         id: isocode
         run: |
@@ -44,4 +49,4 @@ jobs:
           to: "${{env.ISO}}"
           type: "stream"
           topic: "Castle"
-          content: "Changed files:\n\n${{steps.log.outputs.text}}"
+          content: "In ${{github.event.repository.name}} / ${{env.BRANCH}}\n\nChanged files:\n\n${{steps.log.outputs.text}}"
