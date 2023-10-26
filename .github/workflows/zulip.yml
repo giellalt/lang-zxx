@@ -21,4 +21,4 @@ jobs:
           to: "zxx"
           type: "stream"
           topic: "Castle"
-          content: "I come not, friends, to steal away your hearts. The changed files are these: ${{steps.changed-files.outputs.all_modified_files}}"
+          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}}"

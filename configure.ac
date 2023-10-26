@@ -49,6 +49,7 @@ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 ### typically spellers are released more often than the language package):
 AC_SUBST([SPELLERVERSION], [0.1.1])
 
+
 ### Grammar checker release version (usually different from the package version,
 ### typically grammar checkers are released more often than the language
 ### package, and also different from the speller release version):
