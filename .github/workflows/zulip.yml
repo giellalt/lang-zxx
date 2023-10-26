@@ -15,7 +15,7 @@ jobs:
       - name: Logging
         id: log
         run: |
-          echo "```json\n${{toJSON(github.event)}}\n```"
+          echo "::set-output name=events::```json\n${{toJSON(github.event)}}\n```"
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
@@ -25,4 +25,4 @@ jobs:
           to: "zxx"
           type: "stream"
           topic: "Castle"
-          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}}\n\n${{steps.log}}"
+          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}}\n\n${{steps.log.outputs.events}}"
