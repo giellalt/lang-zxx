@@ -22,7 +22,9 @@ jobs:
       - name: Logging
         id: log
         run: |
-          echo "files=`$(echo ${{steps.changed-files.outputs.all_modified_files}} | tr ' ' '\n' | awk '$0=\"- \"$0' )`" >> $GITHUB_OUTPUT
+          for file in ${{steps.changed-files.outputs.all_modified_files}} ; do
+            echo "- $file" >> $GITHUB_OUTPUT
+          done
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
@@ -32,4 +34,4 @@ jobs:
           to: "zxx"
           type: "stream"
           topic: "Castle"
-          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}} \n\n ${{steps.log.outputs.files}}"
+          content: "Changed files:\n- ${{steps.changed-files.outputs.all_modified_files}} \n\n ${{steps.log.outputs.*}}"
