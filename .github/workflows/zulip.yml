@@ -20,10 +20,6 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v35
-      - name: Logging
-        id: log
-        run: |
-          echo "events=\"${{toJSON(github.event)}}\"" >> $GITHUB_OUTPUT
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
