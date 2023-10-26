@@ -22,9 +22,12 @@ jobs:
       - name: Logging
         id: log
         run: |
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          echo "text<<$EOF" >> $GITHUB_OUTPUT
           for file in ${{steps.changed-files.outputs.all_modified_files}} ; do
             echo "'- $file'" >> $GITHUB_OUTPUT
           done
+          echo "$EOF" >> $GITHUB_OUTPUT
       - name: Send a stream message
         uses: zulip/github-actions-zulip/send-message@v1
         with:
