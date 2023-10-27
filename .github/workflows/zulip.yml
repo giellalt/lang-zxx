@@ -49,4 +49,4 @@ jobs:
           to: "${{env.ISO}}"
           type: "stream"
           topic: "${{github.event.repository.name}} / ${{env.BRANCH}}"
-          content: "Changed files:\n\n${{steps.log.outputs.text}}"
+          content: "Changed files in last commit:\n\n${{steps.log.outputs.text}}"
