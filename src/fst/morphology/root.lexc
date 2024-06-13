@@ -161,6 +161,7 @@ LEXICON Root
 0   Prefixes    ; !! @LEXNAME@ --> @CONTLEX@
 0   Punctuation ; !! @LEXNAME@ --> @CONTLEX@
 0   Symbols     ; !! @LEXNAME@ --> @CONTLEX@
+0   Proper      ; !! @LEXNAME@ --> @CONTLEX@
 !! ```
 
 ! vim: set ft=xfst-lexc:

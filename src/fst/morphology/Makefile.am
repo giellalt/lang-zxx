@@ -20,7 +20,7 @@ SUBDIRS=. test
 
 # Add language-specific flags for hfst-lexc compilation here:
 if HAVE_SHARED_COMMON
-HFST_LEXC_LOCAL_FLAGS=  # --Werror # uncomment if lexc is good enough
+HFST_LEXC_LOCAL_FLAGS=--Werror # uncomment if lexc is good enough
 else
 HFST_LEXC_LOCAL_FLAGS=  # No --Werror if deps are missing !
 endif
@@ -43,6 +43,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/nouns.lexc         \
 			 stems/numerals.lexc      \
 			 stems/pronouns.lexc      \
+			 stems/propernouns.lexc   \
 			 stems/verbs.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
