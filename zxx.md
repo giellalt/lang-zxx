@@ -378,6 +378,7 @@ Root --> Numerals
 Root --> Prefixes
 Root --> Punctuation
 Root --> Symbols
+Root --> Proper
 ```
 
 </details>
