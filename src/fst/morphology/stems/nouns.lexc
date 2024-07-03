@@ -3,6 +3,8 @@
 !! Nouns in the No linguistic content language are things.
 
 LEXICON Nouns
+!!€gt-norm:  Noun
+!!€  noun: noun+N+sg+nom # comment
 noun    Cases   ;
 greeting Cases ;
 fellow  Cases ;
