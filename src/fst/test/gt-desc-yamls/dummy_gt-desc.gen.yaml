@@ -1,3 +1,4 @@
+---
 Config:
   hfst:
     Gen:   ../../src/generator-gt-norm.hfst
@@ -9,4 +10,4 @@ Config:
 
 Tests:
   Dummy test replace with real content - noun:
-    noun+N+sg+nom: noun
+    noun+N+Sg+Nom: noun

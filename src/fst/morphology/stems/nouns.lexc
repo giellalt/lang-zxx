@@ -4,7 +4,7 @@
 
 LEXICON Nouns
 !!€gt-norm:  Noun
-!!€  noun: noun+N+sg+nom # comment
+!!€  noun: noun+N+Sg+Nom # comment
 noun    Cases   ;
 greeting Cases ;
 fellow  Cases ;
