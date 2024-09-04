@@ -4,7 +4,7 @@
 !! nouns, but with a colon (':') as separator.
 
 LEXICON ProperNounCases
-+N+Prop+sg+nom:0    # ;
++N+Prop+Sg+Nom:0    # ;
 +N+Prop:%:   Cases  ;
 +N+Prop:%:   Cases  ;
 +N+Prop:%:   Cases  ;
