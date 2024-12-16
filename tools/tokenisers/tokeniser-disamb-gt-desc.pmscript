@@ -20,6 +20,7 @@ Define lexmorph @bin"analyser_relabelled-disamb-gt-desc.hfst" ;
 Define morphology [ lexmorph | UpCase(lexmorph, U) ] ;
 
 Define url @bin"analyser-url-gt-desc.hfst" ;
+Define emoji @bin"analyser-emojis-gt-desc.hfst" ;
 
 ! explicit list of flags, since `?` does not match flags; the list is
 ! dynamically built, since it is language dep:
@@ -116,6 +117,6 @@ Define unknownword unknownform 0:% %?%?::280284
 !! * unknown (OOV) token in context
 !! * sequence of word and punctuation
 !! * URL in context
-Define token [ morphoword | unknownword | incondword | Ins(urlword) ] EndTag(token);
+Define token [ morphoword | unknownword | incondword | emoji | Ins(urlword) ] EndTag(token);
 
 regex token ;
