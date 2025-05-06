@@ -3,7 +3,7 @@
 !! Adjectives in the No linguistic content language describe things and stuff.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
-kind Comparisons ;
+adjective+A:adjective    Comparisons   ;
+kind+A:kind Comparisons ;
 
 ! vim: set ft=xfst-lexc:

@@ -3,12 +3,12 @@
 !! The No linguistic content language nouns inflect in cases.
 
 LEXICON Cases
-+N+Sg+Nom:0     #   ;
-+N+Pl+Nom:i     #   ;
-+N+Sg+Loc:as    #   ;
-+N+Pl+Loc:ias   #   ;
-+N+Sg+Acc:at    #   ;
-+N+Pl+Acc:iat   #   ;
++Sg+Nom:0     #   ;
++Pl+Nom:i     #   ;
++Sg+Loc:as    #   ;
++Pl+Loc:ias   #   ;
++Sg+Acc:at    #   ;
++Pl+Acc:iat   #   ;
 #:0   Nouns   ;
 
 ! vim: set ft=xfst-lexc:

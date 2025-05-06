@@ -5,13 +5,13 @@
 LEXICON Nouns
 !!€gt-norm:  Noun
 !!€  noun: noun+N+Sg+Nom # comment
-noun    Cases   ;
-greeting Cases ;
-fellow  Cases ;
-youth Cases ;
-nuneral Cases ;
-á Cases ;
-ỹ Cases ;
-ŋ́ Cases ;
+noun+N:noun    Cases   ;
+greeting+N:greeting Cases ;
+fellow+N:fellow  Cases ;
+youth+N:youth Cases ;
+nuneral+N:nuneral Cases ;
+á+N:á Cases ;
+ỹ+N:ỹ Cases ;
+ŋ́+N:ŋ́ Cases ;
 
 ! vim: set ft=xfst-lexc:
