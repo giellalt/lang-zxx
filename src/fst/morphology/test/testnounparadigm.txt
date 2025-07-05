@@ -1,0 +1,6 @@
++N+Sg+Nom
++N+Sg+Loc
++N+Sg+Acc
++N+Pl+Nom
++N+Pl+Loc
++N+Pl+Acc
