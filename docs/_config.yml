@@ -3,3 +3,8 @@ title: NLP Grammar with no linguistic content
 description: Finite state and Constraint Grammar based testing bed. Asume nothing works!
 plugins:
   - jemoji
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
