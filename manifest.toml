@@ -1,6 +1,3 @@
-spellername = "No linguistic content"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,14 @@ legacy_product_codes = [
     { value = "17B62C96-9A55-4292-9957-AEC1D42AB325", kind = "nsis" },
     { value = "374C94A1-D8EA-4289-9016-DB93D7C5679A", kind = "nsis" }
 ]
+[package.speller]
+name = "No linguistic content"
+version = "0.1.1"
+
+[package.grammar]
+name = "No linguistic content"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "No linguistic content"
+version = "0.1.0"
