@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+      - docs-upgrade
+  workflow_dispatch:
 
 permissions:
   contents: read
