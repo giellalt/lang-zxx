@@ -1,8 +1,8 @@
 The No linguistic content morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-zxx%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-zxx%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-zxx%2Fgenerated%2Fdocs-data%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-zxx%2Fgenerated%2Fdocs-data%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-zxx)](https://github.com/giellalt/lang-zxx/blob/main/LICENSE)
 [![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-zxx/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-zxx/actions/workflows/docs.yml)
